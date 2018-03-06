@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c53aecae-8abf-4741-942d-236d3c187b5c" name="Default" comment="commit 3">
-      <change beforePath="$PROJECT_DIR$/myApi/app.js" afterPath="$PROJECT_DIR$/myApi/app.js" />
-      <change beforePath="$PROJECT_DIR$/myApi/models/film.js" afterPath="$PROJECT_DIR$/myApi/models/film.js" />
-      <change beforePath="$PROJECT_DIR$/myApi/routes/api.js" afterPath="$PROJECT_DIR$/myApi/routes/api.js" />
-    </list>
+    <list default="true" id="c53aecae-8abf-4741-942d-236d3c187b5c" name="Default" comment="commit 3" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -18,20 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="view-comments.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="view-comments.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="0">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -53,30 +39,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#form#0;n#!!top" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-reviews.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html">
+      <file leaf-file-name="user-management.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="444">
+              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-reviews.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.css">
+      <file leaf-file-name="user-management.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="115">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -102,21 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/menu/menu.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -138,7 +110,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/myApi" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/myApi/routes/api.js" root0="FORCE_HIGHLIGHTING" />
@@ -193,10 +165,10 @@
         <option value="$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.css" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.css" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/frontEnd/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.html" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.css" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -211,8 +183,7 @@
     <handled-path value="$PROJECT_DIR$/myApi/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="width" value="944" />
+    <option name="width" value="968" />
     <option name="height" value="933" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -248,6 +219,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -369,6 +341,14 @@
               <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="user-management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MEANapp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MEANapp2" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="view-comments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -407,7 +387,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,7 +471,9 @@
       <workItem from="1520023013837" duration="830000" />
       <workItem from="1520095319945" duration="486000" />
       <workItem from="1520096200920" duration="788000" />
-      <workItem from="1520250233957" duration="327000" />
+      <workItem from="1520250233957" duration="609000" />
+      <workItem from="1520275357121" duration="266000" />
+      <workItem from="1520327211198" duration="3367000" />
     </task>
     <task id="LOCAL-00001" summary="commit 3">
       <created>1517399969183</created>
@@ -505,7 +486,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174847000" />
+    <option name="totallyTimeSpent" value="178762000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,16 +498,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="0" width="944" height="933" extended-state="0" />
+    <frame x="0" y="0" width="968" height="933" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19804135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22375397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38854295" sideWeight="0.218716" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13574097" sideWeight="0.17179215" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2487491" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38854295" sideWeight="0.781284" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13574097" sideWeight="0.82820785" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39961758" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -534,7 +517,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32880098" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -564,13 +546,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/about-us/about-us.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/about-us/about-us.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -599,20 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -854,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="0">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
@@ -876,14 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -892,31 +845,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.html">
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#0#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="8" lean-forward="false" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
-            <element signature="n#style#0;n#p#0;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#mat-card-content#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

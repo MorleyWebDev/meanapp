@@ -8,16 +8,16 @@
       </mat-expansion-panel-header>
       <mat-card>
 
-        <img md-card-image [src]="review.img" alt="Film Image" />
+        <img md-card-image [src]="review.img" alt="Film Image" /> <br/> <br/>
 
         <mat-card-title>
-          <p style="font-weight: bold">Director: </p>{{review.director}} <br/>
-          Studio: {{review.studio}}<br/>
-          Release date:{{review.year}}
+          <span style="font-weight: bold">Director: </span>{{review.director}} <br/>
+          <span style="font-weight: bold">Studio:</span> {{review.studio}} <br/>
+          <span style="font-weight: bold"> Release date: </span>{{review.year | date}} <br/>
         </mat-card-title>
 
         <mat-card-content>
-          {{review.review}}
+          <p style="font-weight: bold">Review: </p> -{{review.review}} <br/>
 
           <a *ngIf="currentUser.role=='editor' || (currentUser.role=='creator' && currentUser._id ==review.reviewer)"
              [routerLink]="['/onereview',review._id]" class="btn btn-successs">View </a>
