@@ -28,7 +28,10 @@ export class ViewReviewsComponent implements OnInit {
   deleteFilm(id){
     this.reviewService.delete(id)
       .subscribe(res=>{
+        this.router.navigated = false
+
         this.router.navigate(['/']);
+        window.location.reload();
       }, (err)=> {
         console.log(err);
       })

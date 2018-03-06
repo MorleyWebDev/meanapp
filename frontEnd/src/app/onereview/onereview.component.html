@@ -4,12 +4,14 @@
 
 
 
-   <h1> {{viewReview.title}} </h1>
-  Director:  <p>{{viewReview.director}} </p>
-
-  Year:  <p>{{viewReview.year}}</p>
-  Studio: <p> {{ viewReview.studio }}</p>
-
+  <mat-card-title>
+    <span style="font-weight: bold">Title: </span>{{viewReview.title}} <br/>
+    <span style="font-weight: bold">Director:</span> {{viewReview.director}} <br/>
+    <span style="font-weight: bold">Studio:</span> {{viewReview.studio}} <br/>
+    <span style="font-weight: bold"> Release date: </span>{{viewReview.year | date}} <br/>
+    <span style="font-weight: bold"> Review: </span>{{viewReview.review}} <br/> <br/>
+    <span style="font-weight: bold"> - </span>{{viewReview.reviewer}} <br/>
+  </mat-card-title> <br> <br> <br>
 
 
   <app-view-comments></app-view-comments>

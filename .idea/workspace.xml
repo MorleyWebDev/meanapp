@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="view-comments.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.css">
+      <file leaf-file-name="view-comments.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -27,7 +27,7 @@
       <file leaf-file-name="input-comment.component.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="0">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -47,29 +47,41 @@
       <file leaf-file-name="user-management.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="549">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-management.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.html">
+      <file leaf-file-name="view-reviews.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="210">
+              <caret line="14" column="19" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="25" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#mat-card-content#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input-comment.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.ts">
+      <file leaf-file-name="onereview.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontEnd/src/app/onereview/onereview.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#mat-card-title#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#mat-card-title#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#mat-card-title#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#mat-card-title#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#4;n#mat-card-title#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#5;n#mat-card-title#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontEnd/src/app/model/review.ts" />
         <option value="$PROJECT_DIR$/myApi/models/model.js" />
         <option value="$PROJECT_DIR$/myApi/models/film.js" />
         <option value="$PROJECT_DIR$/myApi/routes/comment.js" />
@@ -134,7 +145,6 @@
         <option value="$PROJECT_DIR$/frontEnd/src/app/auth/register/register.component.css" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/about-us/about-us.component.css" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/where-we-are/where-we-are.component.css" />
-        <option value="$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/edit-review/edit-review.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/onereview/onereview.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/service/manageuser.service.ts" />
@@ -142,7 +152,6 @@
         <option value="$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/create-review/create-review.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/service/comment.service.ts" />
-        <option value="$PROJECT_DIR$/frontEnd/src/app/onereview/onereview.component.html" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/app.routing.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/service/review.service.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.ts" />
@@ -150,7 +159,6 @@
         <option value="$PROJECT_DIR$/myApi/routes/api.js" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/model/user.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/model/comment.ts" />
-        <option value="$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/menu/menu.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/auth/login/login.component.ts" />
         <option value="$PROJECT_DIR$/frontEnd/src/index.html" />
@@ -169,6 +177,10 @@
         <option value="$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.css" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html" />
         <option value="$PROJECT_DIR$/frontEnd/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/myApi/models/user.js" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.ts" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.ts" />
+        <option value="$PROJECT_DIR$/frontEnd/src/app/onereview/onereview.component.html" />
       </list>
     </option>
   </component>
@@ -473,7 +485,7 @@
       <workItem from="1520096200920" duration="788000" />
       <workItem from="1520250233957" duration="609000" />
       <workItem from="1520275357121" duration="266000" />
-      <workItem from="1520327211198" duration="3367000" />
+      <workItem from="1520327211198" duration="7927000" />
     </task>
     <task id="LOCAL-00001" summary="commit 3">
       <created>1517399969183</created>
@@ -486,7 +498,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178762000" />
+    <option name="totallyTimeSpent" value="183322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,13 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/about-us/about-us.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/one-review/my-reviews.component.html" />
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/one-review/my-reviews.component.css" />
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/one-review/my-reviews.component.ts" />
@@ -581,20 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/auth/register/register.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/service/auth-register.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -640,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApi/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="213" column="40" lean-forward="true" selection-start-line="213" selection-start-column="40" selection-end-line="213" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myApi/models/comment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -679,13 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/onereview/onereview.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -748,32 +725,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,24 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="0">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -855,40 +794,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#mat-card-content#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,9 +812,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApi/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="213" column="40" lean-forward="true" selection-start-line="213" selection-start-column="40" selection-end-line="213" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/service/auth-register.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApi/models/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/auth/register/register.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/input-comment/input-comment.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/user-management/user-management.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-comments/view-comments.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/view-reviews/view-reviews.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#mat-card-title#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#mat-card-content#0;n#mat-card#0;n#mat-expansion-panel#0;n#div#0;n#mat-accordion#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/src/app/onereview/onereview.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#mat-card-title#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#mat-card-title#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#mat-card-title#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#mat-card-title#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#mat-card-title#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#mat-card-title#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

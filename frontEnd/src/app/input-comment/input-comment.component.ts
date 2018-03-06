@@ -33,7 +33,8 @@ export class InputCommentComponent implements OnInit {
 
     this.commentService.createComment(this.newComment).subscribe(res => {
         let id = res['_id'];
-      this.router.navigate(['onereview/' +this.route.snapshot.params['id'] ]);
+      //this.router.navigate(['onereview/' +this.route.snapshot.params['id'] ]);
+      window.location.reload();
       }, (err) => {
         console.log(err);
       }
