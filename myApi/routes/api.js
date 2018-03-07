@@ -254,7 +254,7 @@ router.get('/comment:id', function(req, res, next) {
 });
 
 
-
+//for get token
 getToken = function(header){
     if(header && header.authorization){
         var parted = header.authorization.split(' ');

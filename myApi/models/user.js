@@ -1,6 +1,9 @@
 var mongoose = require('mongoose');
 var bycrypt = require('bcrypt-nodejs');
 
+
+//user model for back end api
+
 var UserSchema = new mongoose.Schema({
     email: {
         type: String,
@@ -19,6 +22,8 @@ var UserSchema = new mongoose.Schema({
     }
 },
     {timestamps:true});
+
+//password hashing code
 
 UserSchema.pre('save', function(next) {
     var user = this;
@@ -40,6 +45,8 @@ UserSchema.pre('save', function(next) {
     });
   });
 });
+
+//for logging in - compare password
 
 UserSchema.methods.comparePassword =  function(passwordAttempt, cb){
  bycrypt.compare(passwordAttempt, this.password, function(err, isMatch){

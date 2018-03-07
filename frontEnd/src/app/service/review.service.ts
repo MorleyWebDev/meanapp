@@ -12,13 +12,13 @@ import {Comment} from "../model/comment";
 export class ReviewService {
   headers: HttpHeaders;
   constructor(private http: HttpClient) { }
-
+//create a new review
   create(review: Review) {
     console.log(review);
 
     return this.http.post(appConfig.apiUrl + '/api/film', review);
   }
-
+//get all reviews as observable
   getAllReviews(): Observable<Array<Review>> {
     try {
 
@@ -27,7 +27,7 @@ export class ReviewService {
       console.log(error.msg);
     }
   }
-
+    //get specific review by ID
   getReviewByID(id: string): Observable<any> {
     try {
       return this.http.get(`${appConfig.apiUrl}/api/film` + id);
@@ -37,7 +37,7 @@ export class ReviewService {
   }
 
 
-
+//delete film review
   delete(id:string){
     return this.http.delete(`${appConfig.apiUrl}/api/film` + id);
   }

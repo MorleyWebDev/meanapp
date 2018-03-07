@@ -22,6 +22,7 @@ export class RegisterComponent implements OnInit {
   }
 
 
+  //register code
   register() {
     this.loading = true;
     this.registerService.create(this.model)

@@ -1,6 +1,8 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+//review model for back end api
+
 var FilmSchema = new Schema({
 
 

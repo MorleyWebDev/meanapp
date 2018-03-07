@@ -19,6 +19,8 @@ export class AuthLoginService {
 
   constructor(private http: HttpClient) { }
 
+
+  //login service posts data to express back end which
   login(email: string, password: string) {
     return this.http.post <any> (appConfig.apiUrl + '/api/signin', { email: email, password: password })
       .map(user => {

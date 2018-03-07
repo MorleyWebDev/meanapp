@@ -45,7 +45,4 @@ export class EditReviewComponent implements OnInit {
         console.log(err);
       })
   };
-
-
-
 }

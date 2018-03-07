@@ -25,10 +25,12 @@ export class ViewReviewsComponent implements OnInit {
 
   }
 
+
+ //delete film with the specific id
   deleteFilm(id){
     this.reviewService.delete(id)
       .subscribe(res=>{
-        this.router.navigated = false
+        this.router.navigated = false;
 
         this.router.navigate(['/']);
         window.location.reload();
