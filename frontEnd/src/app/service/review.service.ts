@@ -52,7 +52,7 @@ export class ReviewService {
 
   }
 
-  //comment servieces below.
+  //comment services below.
 
   createComment(comment: Comment) {
     console.log(comment);

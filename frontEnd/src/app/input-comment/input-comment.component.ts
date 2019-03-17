@@ -16,24 +16,20 @@ export class InputCommentComponent implements OnInit {
   currentReview = new Review();
   newComment = new Comment();
 
-  constructor(private commentService: ReviewService, private route: ActivatedRoute,  private router: Router) { }
+  constructor(private reviewService: ReviewService, private route: ActivatedRoute,  private router: Router) { }
 
   ngOnInit() {
   }
 
   createComment() {
     this.currentUser = JSON.parse(localStorage.getItem('currentUser'));
-    //this.reviewService.getReviewByID(this.route.snapshot.params['id'])
     this.currentReview = this.route.snapshot.params['id'];
-    console.log("review id " + this.currentReview);
-
     this.newComment.userid = this.currentUser._id;
     this.newComment.username = this.currentUser.email;
     this.newComment.reviewid = this.route.snapshot.params['id'];
 
-    this.commentService.createComment(this.newComment).subscribe(res => {
+    this.reviewService.createComment(this.newComment).subscribe(res => {
         let id = res['_id'];
-      //this.router.navigate(['onereview/' +this.route.snapshot.params['id'] ]);
       window.location.reload();
       }, (err) => {
         console.log(err);

@@ -9,15 +9,12 @@ import {appConfig} from '../app.config';
 
 @Injectable()
 export class AuthRegisterService {
-
   constructor(private http: HttpClient) { }
 
   create(user: User) {
     console.log(user);
     return this.http.post(appConfig.apiUrl + '/api/signup', user);
   }
-
-
 }
 
 

@@ -23,10 +23,10 @@
              [routerLink]="['/onereview',review._id]" class="btn btn-successs">View </a>
 
           <a *ngIf="currentUser.role=='editor' || (currentUser.role=='creator' && currentUser._id ==review.reviewer)"
-             [routerLink]="['/editreview',review._id]" class="btn btn-successs">EDIT </a>
+             [routerLink]="['/editreview',review._id]" class="btn btn-successs">Edit </a>
 
           <button *ngIf="currentUser.role=='editor' || (currentUser.role=='creator' && currentUser._id == review.reviewer)"
-            class="btn btn-danger" type="button" (click)="deleteFilm(review._id)"> DELETE
+            class="btn btn-danger" type="button" (click)="deleteFilm(review._id)"> Delete
           </button>
 
 

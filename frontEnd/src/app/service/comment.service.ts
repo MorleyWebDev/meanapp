@@ -11,17 +11,15 @@ export class CommentService {
   headers: HttpHeaders;
   constructor(private http: HttpClient) {}
 
-    create(comment: Comment) {
-      console.log(comment);
+  create(comment: Comment) {
       return this.http.post(appConfig.apiUrl + '/api/comment', comment);
     }
 
   getAllComments(): Observable<Array<Comment>> {
     try {
-
       return this.http.get(`${appConfig.apiUrl}/api/comment`).map(res => res as Array<Comment> || []) ;
     } catch (error) {
-      console.log(error.msg);
+      throw error.msg
     }
   }
 
@@ -29,11 +27,9 @@ export class CommentService {
     try {
       return this.http.get(`${appConfig.apiUrl}/api/film` + id);
     } catch (error) {
-      console.log(error.msg);
+      throw error.msg;
     }
   }
-
-
 
   delete(id:string){
     return this.http.delete(`${appConfig.apiUrl}/api/film` + id);
@@ -42,16 +38,10 @@ export class CommentService {
   editReview(id:string, review:Review){
     try {
       return this.http.put(`${appConfig.apiUrl}/api/film` + id, review);
-
     } catch (error) {
-      console.log(error.msg)
+      throw error.msg
     }
-
   }
-
-
-
-
 }
 
 

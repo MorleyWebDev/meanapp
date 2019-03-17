@@ -23,13 +23,10 @@ export class OnereviewComponent implements OnInit {
     reviewer: '',
     img: ''
   };
-
-
   currentUser: User;
   constructor(private reviewService: ReviewService,  private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
-
     this.reviewService.getReviewByID(this.route.snapshot.params['id'])
       .subscribe(res =>{ this.viewReview = res ;
         console.log(res)});

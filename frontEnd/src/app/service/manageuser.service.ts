@@ -13,16 +13,13 @@ export class ManageUserService {
   constructor(private http: HttpClient) {
   }
 
-
   getAllUsers(): Observable<Array<User>> {
     try {
-
       return this.http.get(`${appConfig.apiUrl}/api/user`).map(res => res as Array<User> || []);
     } catch (error) {
       console.log(error.msg);
     }
   }
-
 
   edit(id:string, user: User){
     return this.http.put(`${appConfig.apiUrl}/api/user` + id, user);

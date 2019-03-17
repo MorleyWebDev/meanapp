@@ -15,26 +15,17 @@ import {ReviewService} from "../service/review.service";
   styleUrls: ['./user-management.component.css']
 })
 
-
-
 export class UserManagementComponent implements OnInit {
   allUsers: Array<User>;
   currentUser: User;
-  // user: User = {
-  //   _id: '',
-  //   email: '',
-  //   password: '',
-  //   role: ''
-  // };
 
-  constructor(private manageUsersService: ManageUserService,private router: Router, private authService: AuthLoginService) { }
+  constructor(private manageUsersService: ManageUserService, private router: Router, private authService: AuthLoginService) { }
 
   ngOnInit() {
     this.manageUsersService.getAllUsers()
       .subscribe(data => (this.allUsers = data
-      )); //broken????
-    this.authService.currentUserObserver.subscribe(currentUser => this.currentUser= currentUser);
-
+      ));
+    this.authService.currentUserObserver.subscribe(currentUser => this.currentUser = currentUser);
   }
 
   updateUser(user:User){
@@ -44,7 +35,6 @@ export class UserManagementComponent implements OnInit {
       .subscribe(res=> {
         console.log(user);
         let id = res['_id'];
-        // this.router.navigate(['/']);
       }, (err) => {
         console.log(err);
       })

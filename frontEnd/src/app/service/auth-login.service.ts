@@ -5,7 +5,6 @@ import 'rxjs/add/operator/map';
 import { appConfig } from '../app.config';
 import * as jwt from 'jsonwebtoken';
 import {BehaviorSubject} from "rxjs/BehaviorSubject";
-
 import {User} from '../model/user';
 
 @Injectable()
@@ -19,22 +18,12 @@ export class AuthLoginService {
 
   constructor(private http: HttpClient) { }
 
-
   //login service posts data to express back end which
   login(email: string, password: string) {
     return this.http.post <any> (appConfig.apiUrl + '/api/signin', { email: email, password: password })
-      .map(user => {
-
-          console.log('login has fired');
-
-          console.log(user);
-          //let token = user.json() &&  user.json().token;
+      .map(user => { 
           const parted = user.token.split(' ');
           const currentUserReturned = jwt.decode(parted[1],  appConfig.secret);
-           console.log('empty user is ');
-           console.log(this.emptyUser);
-          console.log(currentUserReturned);
-          //console.log(token);
           // login successful if there's a jwt token in the response
           if (user) {
             // store user details and jwt token in local storage to keep user logged in between page refreshes
@@ -43,17 +32,13 @@ export class AuthLoginService {
             this.changeLoginStatus(true);
             this.changeCurrentUserStatus(currentUserReturned);
           }
-
           return user;
         }
       );
   }
 
-
-
-
   logout() {
-    // remove user from local storage to log user out
+    // remove user from local storage when logging user out
     localStorage.removeItem('currentUser');
     localStorage.removeItem('token');
     this.changeLoginStatus(false);

@@ -9,33 +9,23 @@ import { Comment } from '../model/comment';
 import {ActivatedRoute, Router} from '@angular/router';
 import { CommentService } from "../service/comment.service";
 
-
-
-
 @Component({
   selector: 'app-view-comments',
   templateUrl: './view-comments.component.html',
   styleUrls: ['./view-comments.component.css']
 })
 
-
 export class ViewCommentsComponent{
-
   allComments: Array<Comment>;
   currentUser: User;
-  constructor(private commentService: ReviewService, private authService: AuthLoginService, private router: Router, private route: ActivatedRoute) { }
+  constructor(private reviewService: ReviewService, private authService: AuthLoginService, private router: Router, private route: ActivatedRoute) { }
 
    ngOnInit() {
-    this.commentService.getAllComments()
+    this.reviewService.getAllComments()
       .subscribe(data => (this.allComments = data
-      )); //broken????
+      ));
     this.authService.currentUserObserver.subscribe(currentUser => this.currentUser= currentUser);
 
   }
-
-//
-//
-//
  }
-//
-//
+

@@ -29,13 +29,9 @@ export class CreateReviewComponent implements OnInit {
   createReview() {
     this.currentUser = JSON.parse(localStorage.getItem('currentUser'));
     this.newReview.reviewer = this.currentUser._id;
-
-    console.log(this.newReview);
-//users create functipon from review service
     this.reviewService.create(this.newReview)
       .subscribe(res => {
           let id = res['_id'];
-
           this.router.navigate(['/']);
         }, (err) => {
           console.log(err);

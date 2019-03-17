@@ -20,8 +20,8 @@ export class ViewReviewsComponent implements OnInit {
   ngOnInit() {
     this.reviewService.getAllReviews()
       .subscribe(data => (this.allReviews = data
-      )); //broken????
-    this.authService.currentUserObserver.subscribe(currentUser => this.currentUser= currentUser);
+      ));
+    this.authService.currentUserObserver.subscribe(currentUser => this.currentUser = currentUser);
 
   }
 
