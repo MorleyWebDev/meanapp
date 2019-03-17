@@ -15,8 +15,6 @@ import { FormControl} from "@angular/forms";
   styleUrls: ['./create-review.component.css']
 })
 export class CreateReviewComponent implements OnInit {
-
-
   htmlContent: string;
   newReview= new Review();
   currentUser = new User('','','');

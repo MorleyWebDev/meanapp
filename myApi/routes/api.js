@@ -10,11 +10,6 @@ var debug = require('debug')('myapi:server');
 var Film = require("../models/film");
 var Comment = require('../models/comment');
 
-
-
-
-//
-
 router.post('/signup',function(req,res){
     if(!req.body.email || !req.body.password){
         res.json({success: false, msg:'please pass email and password'});
@@ -41,7 +36,6 @@ router.post('/signin', function(req, res){
             res.status(401).send({success: false, msg: 'authentication failed. user not found'});
         } else
         {
-            //CHECK IF  PASSWORD MATCHES
             user.comparePassword(req.body.password, function(err, isMatch){
                 if(isMatch && !err){
                     var token = jwt.sign(user.toJSON(), config.secret);
@@ -55,11 +49,7 @@ router.post('/signin', function(req, res){
     })
 });
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////*REVIEW MANAGEMENT*/ ////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
+/*Review management*/
 
 router.post('/film', passport.authenticate('jwt', { session: false}), function(req, res) {
     var token = getToken(req.headers);
@@ -130,7 +120,7 @@ router.get('/film', passport.authenticate('jwt', { session: false}), function(re
 
 
 /* DELETE Film */
-//////
+
     router.delete('/film:id', passport.authenticate('jwt', { session: false}), function(req, res, next) {
         var token = getToken(req.headers);
         if (token) {
@@ -146,7 +136,7 @@ router.get('/film', passport.authenticate('jwt', { session: false}), function(re
 
 
 
-/* GET all Users BY ID */
+/* GET all Users by ID */
 router.get('/user', passport.authenticate('jwt', { session: false}), function(req, res) {
 
     var token = getToken(req.headers);
@@ -198,11 +188,7 @@ router.put('/user:id', passport.authenticate('jwt', { session: false}), function
     }
 });
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-////////////////////////////////////*COMMENTS MANAGEMENT*/ ////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
+/*Comments management*/
 
 router.post('/comment', passport.authenticate('jwt', { session: false}), function(req, res) {
     var token = getToken(req.headers);
@@ -272,4 +258,4 @@ getToken = function(header){
 
 
 
-module.exports = router; //export as router for other modules
+module.exports = router;
